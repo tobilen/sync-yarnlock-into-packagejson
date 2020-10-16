@@ -1,5 +1,5 @@
 {
-  "name": "syncyarnlock",
+  "name": "@invisionag/syncyarnlock",
   "version": "1.0.19",
   "description": "Syncs yarn.lock versions into an exsisting package.json file, removing dynamic numbers such as with ^, keeping static versions intact.",
   "main": "./lib/index.js",
@@ -39,5 +39,8 @@
   "dependencies": {
     "commander": "^2.20.0",
     "glob": "^7.1.4"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
